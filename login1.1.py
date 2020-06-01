@@ -130,7 +130,7 @@ password = Label(window1, text="Password", font=("Times new roman", 16, "bold"),
 password.grid(row=2, column=0, padx=10, pady=10)
 user1 = Entry(window1, textvar=un)
 user1.grid(row=1, column=1, padx=10, pady=10)
-password1 = Entry(window1, textvar=psw)
+password1 = Entry(window1, textvar=psw ,show="*")
 password1.grid(row=2, column=1, padx=10, pady=10)
 submit1 = Button(window1, text="SUBMIT", width=12, bg='red', fg='black', command=validate)
 submit1.grid(row=3, column=1, padx=20, pady=20)
